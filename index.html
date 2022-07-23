@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/ea.png" type="image/x-icon">
+        <title>FIFA 22</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">FIFA Survey</h1>
+            <div>
+                <p id='description'>Thanks for taking your time in our survey to
+                    improve
+                    your precious gaming experience in our widely known game
+                    FIFA.</p>
+            </div>
+
+            <form action="https://formspree.io/f/mbjwnkpp"
+                method="POST" id="survey-form">
+                <div class="name">
+                    <label id='name-label' for="name">Full Name : </label>
+                    <input type="text" name="full name" id="name"
+                        placeholder="John Hopper" required/>
+                </div>
+                <div class="age">
+                    <label id="number-label" for="age">Age : </label>
+                    <input type="number" min="7" max="100" name="age" id="age"
+                        placeholder="18"
+                        required/>
+                </div>
+                <div class="gender">
+                    <p>Gender: </p>
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label id="gender-label" for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female" value="female"
+                        />
+                    <label id="gender-label" for="female">Female</label>
+                </div>
+                <div class="email">
+                    <label id="email-label" for="email">E-mail : </label>
+                    <input type="email" name="email" id="email"
+                        placeholder="EA account Email" required/>
+                </div>
+                <div class="platform">
+                    <label id='platform-label' for="platform">Which Platform do
+                        you
+                        play on ?? </label>
+                    <br>
+                    <select aria-label="label for the select" id="dropdown"
+                        name="platform"
+                        required>
+                        <option disabled selected value="">Select Platform</option>
+                        <option value="PC">PC</option>
+                        <option value="PS4">PS4</option>
+                        <option value="XBOX">XBOX</option>
+                        <option value="SWITCH">SWITCH</option>
+                        <option value="STADIA">STADIA</option>
+                    </select>
+                </div>
+                <div>
+                    <p id="recommendation">Would you recommend freeCodeCamp to a
+                        friend ? </p>
+                    <input type="radio" name="recommend"
+                        id="definitely-recommend"
+                        value='definitely'/>
+                    <label id="recommend-label" for="definitely-recommend">Definitely</label>
+                    <br>
+                    <input type="radio" name="recommend" id="maybe-recommend"
+                        value="maybe" />
+                    <label id="may-recommend-label" for="maybe-recommend">Maybe</label>
+                    <br>
+                    <input type="radio" name="recommend" id="not-recommend"
+                        value="not sure" />
+                    <label id="not-recommend-label" for="not-recommend">Not Sure</label>
+                </div>
+
+                <div>
+                    <p>What are all the FIFA series you ever played ?? </p>
+                    <input type="checkbox" name="fifa 10" id="fifa-10"
+                        value="fifa
+                        10" />
+                    <label for="fifa-10">FIFA 10</label>
+                    <br>
+                    <input type="checkbox" name="fifa 11" id="fifa-11"
+                        value="fifa
+                        11" />
+                    <label for="fifa-11">FIFA 11</label>
+                    <br>
+                    <input type="checkbox" name="fifa 12" id="fifa-12"
+                        value="fifa
+                        12" />
+                    <label for="fifa-12">FIFA 12</label>
+                    <br>
+                    <input type="checkbox" name="fifa 13" id="fifa-13"
+                        value="fifa
+                        13" />
+                    <label for="fifa-13">FIFA 13</label>
+                    <br>
+                    <input type="checkbox" name="fifa 14" id="fifa-14"
+                        value="fifa
+                        14" />
+                    <label for="fifa-14">FIFA 14</label>
+                    <br>
+                    <input type="checkbox" name="fifa 15" id="fifa-15"
+                        value="fifa
+                        15" />
+                    <label for="fifa-15">FIFA 15</label>
+                    <br>
+                    <input type="checkbox" name="fifa 16" id="fifa-16"
+                        value="fifa
+                        16" />
+                    <label for="fifa-16">FIFA 16</label>
+                    <br>
+                    <input type="checkbox" name="fifa 17" id="fifa-17"
+                        value="fifa
+                        17" />
+                    <label for="fifa-17">FIFA 17</label>
+                    <br>
+                    <input type="checkbox" name="fifa 18" id="fifa-18"
+                        value="fifa
+                        18" />
+                    <label for="fifa-18">FIFA 18</label>
+                    <br>
+                    <input type="checkbox" name="fifa 19" id="fifa-19"
+                        value="fifa
+                        19" />
+                    <label for="fifa-19">FIFA 19</label>
+                    <br>
+                    <input type="checkbox" name="fifa 20" id="fifa-20"
+                        value="fifa
+                        20" />
+                    <label for="fifa-20">FIFA 20</label>
+                    <br>
+                    <input type="checkbox" name="fifa 21" id="fifa-21"
+                        value="fifa
+                        21" />
+                    <label for="fifa-21">FIFA 21</label>
+                    <br>
+                    <input type="checkbox" name="fifa 22" id="fifa-22"
+                        value="fifa
+                        22" />
+                    <label for="fifa-22">FIFA 22</label>
+                    <br>
+                </div>
+                <div>
+                    <p id="fifa-23">Are you excited for FIFA 23 ??</p>
+                    <input type="radio" name="excitement" id="very-excited"
+                        value='very excited'/>
+                    <label id="very-excited-label" for="very-excited">VERY
+                        Excited</label>
+                    <br>
+                    <input type="radio" name="excitement"
+                        id="not-very-excited"
+                        value='not very excited'/>
+                    <label id="not-very-excited-label"
+                        for="not-very-excited">Not
+                        too
+                        Excited</label>
+                    <br>
+                    <input type="radio" name="excitement" id="disappointed"
+                        value='disappointed'/>
+                    <label id="disappointed-label" for="disappointed">Disappointed</label>
+                </div>
+                <div class="game-mode">
+                    <label id='game-mode-label' for="game-mode">Which
+                        Platform
+                        do
+                        you
+                        play on ?? </label>
+                    <br>
+                    <select aria-label="game-mode" id="dropdown"
+                        name="game-mode"
+                        required>
+                        <option disabled selected value="">Select Favorite
+                            Game
+                            Mode </option>
+                        <option value="FUT CHAMPS">FUT Champions</option>
+                        <option value="Rivals">Division Rival</option>
+                        <option value="Friendlies">Friendlies</option>
+                        <option value="VOLTA">VOLTA</option>
+                        <option value="KICK OFF">Kick OFF</option>
+                    </select>
+                </div>
+                <div class="comments-suggestions">
+                    <label id='comments' for="comments and suggestions">Any
+                        Comments
+                        or Suggestions ?? </label>
+                    <br>
+                    <textarea name="comments"
+                        id="comments"
+                        placeholder="I believe FIFA ........."></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <p>Made with 💖 By Youssef Waleed</p>
+            <a href="https://github.com/YoYo-Python" target="_blank"><img
+                    src="images/github.svg" alt="Github Profile" rel="noopener"></a>
+            <a href="https://twitter.com/Youssef_DEV_Web" target="_blank"><img
+                    src="images/twitter.svg" alt="Twitter Profile"
+                    rel="noopener"></a>
+        </div>
+    </body>
+
+</html>

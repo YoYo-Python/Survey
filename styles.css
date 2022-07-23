@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@100;400&display=swap");
+
+body {
+  background: #ff7e5f;
+  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
+
+  font-family: "Poppins";
+  color: black;
+  outline: none;
+  margin: 0% 20%;
+  background-repeat: no-repeat;
+}
+.container {
+  background: #41295a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2f0743,
+    #41295a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2f0743,
+    #41295a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  background-repeat: no-repeat;
+
+  border-radius: 50px;
+}
+h1 {
+  font-family: "Bree Serif", serif;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 0.9rem;
+  transition: all 0.5s;
+  outline: none;
+  font-family: Poppins;
+}
+
+label,
+p {
+  font-size: 1.4rem;
+}
+
+div {
+  margin: 20px;
+}
+
+#description {
+  font-weight: 500;
+  font-style: italic;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  text-decoration: #ffffff underline;
+}
+
+select {
+  border-radius: 30px;
+  padding: 10px;
+  font-family: Poppins;
+  transition: all 0.5s;
+  outline: none;
+  margin-top: 15px;
+}
+
+select:hover,
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover {
+  border-color: rgb(20, 196, 40);
+  border-width: 5px;
+  outline: none;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  outline: none;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #747474;
+  border-radius: 50%;
+  outline: none;
+  opacity: 0.6;
+  /*transition: 0.3s;*/
+}
+
+input[type="radio"]:hover:before {
+  box-shadow: 0px 0px 0px 12px rgba(80, 80, 200, 0.2);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+input[type="radio"]:before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 15%;
+
+  border-radius: 50%;
+  transition: 0.3s; /* Move your transition to here */
+}
+
+input[type="radio"]:checked:before {
+  background: rgb(57, 1, 42);
+  border-color: black;
+}
+
+#very-excited-label {
+  transition: all 0.5s;
+}
+
+#very-excited-label:hover,
+#very-excited:hover {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+#not-very-excited-label {
+  transition: all 0.5s;
+}
+
+#not-very-excited-label:hover {
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+#disappointed-label {
+  transition: all 0.5s;
+}
+
+#disappointed-label:hover {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+.name input,
+.age input,
+.email input {
+  margin-left: 50px;
+}
+
+div {
+  margin-top: 50px;
+}
+
+#recommend-label {
+  transition: all 0.5s;
+}
+
+#recommend-label:hover {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+#may-recommend-label {
+  transition: all 0.5s;
+}
+
+#may-recommend-label:hover {
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+#not-recommend-label {
+  transition: all 0.5s;
+}
+
+#not-recommend-label:hover {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+input[type="checkbox"] {
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: #000428;
+}
+
+textarea {
+  border-radius: 70px;
+  font-family: Poppins;
+  padding: 50px;
+  margin: 30px 0px;
+  outline: none;
+  height: 150px;
+  width: 400px;
+  font-size: 16px;
+}
+
+.submit {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#submit {
+  height: 50px;
+  width: 100px;
+  font-family: Poppins;
+  font-size: 20px;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.75s;
+  margin-bottom: 15px;
+}
+#submit:hover {
+  height: 100px;
+  width: 200px;
+  font-family: Poppins;
+  font-size: 30px;
+  border-radius: 70px;
+  outline: none;
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ec6ead,
+    #3494e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ec6ead,
+    #3494e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  outline: none;
+  border-width: 5px;
+  border-color: #89253e;
+  font-weight: 900;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #b5d9de;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border: black solid 3px;
+}
+.footer p {
+  font-size: 30px;
+  font-weight: 900;
+}
+img {
+  width: 50px;
+  height: 50px;
+  padding-left: 25px;
+}
