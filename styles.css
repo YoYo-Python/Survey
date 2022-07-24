@@ -274,7 +274,7 @@ textarea {
 
 #submit {
   height: 50px;
-  width: 100px;
+  width: fit-content
   font-family: Poppins;
   font-size: 20px;
   border-radius: 20px;
