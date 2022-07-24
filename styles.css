@@ -315,6 +315,7 @@ textarea {
   color: rgb(0, 0, 0);
   border-radius: 50px;
   border: black solid 3px;
+  padding-bottom: 40px;
 }
 .footer p {
   font-size: 30px;
